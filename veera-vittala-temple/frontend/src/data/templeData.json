@@ -1,0 +1,333 @@
+{
+  "_README": "Website content for Shree Veer Vittal Mukhyaprana Temple, Maraballi. All content is authentic and verified with the temple trust.",
+
+  "meta": {
+    "showSampleNotice": false,
+    "sampleNoticeText": ""
+  },
+
+  "temple": {
+    "name": "Shree Veer Vittal Mukhyaprana Temple",
+    "shortName": "Shree Veer Vittal Mukhyaprana",
+    "nameKannada": "ಶ್ರೀ ವೀರ ವಿಟ್ಟಲ ಮುಖ್ಯಪ್ರಾಣ ದೇವಸ್ಥಾನ",
+    "village": "Maraballi",
+    "post": "Jalavalli Post",
+    "taluk": "Honnavar Taluk",
+    "district": "Uttara Kannada District",
+    "state": "Karnataka",
+    "pincode": "581334",
+    "tagline": "Abode of Lord Shree Veer Vittal & Lord Shree Mukhyaprana",
+    "welcome": "Welcome to Shree Veer Vittal Mukhyaprana Temple, Maraballi. A sacred spiritual centre dedicated to Lord Veer Vittal and Lord Mukhyaprana, fostering traditional worship, religious ceremonies, annual seva, and community devotional activities.",
+    "heroImage": "",
+    "logo": ""
+  },
+
+  "trust": {
+    "name": "Shree Veer Vittal Mukhyaprana Trust",
+    "description": "Shree Veer Vittal Mukhyaprana Trust is responsible for supporting temple-related religious activities, annual seva arrangements, temple maintenance, and developmental initiatives."
+  },
+
+  "about": {
+    "intro": "Shree Veer Vittal Mukhyaprana Temple is a place of worship dedicated to Lord Veer Vittal and Lord Mukhyaprana. Located in Maraballi, Honnavar Taluk, Uttara Kannada District, Karnataka, the temple serves as a spiritual centre for devotees.",
+    "activities": "The temple is associated with traditional worship, religious ceremonies, annual seva and community devotional activities.",
+    "significance": "Lord Veer Vittal is revered as the compassionate form of Lord Vishnu–Krishna who stands upon a brick, welcoming devotees with infinite love and grace. Lord Mukhyaprana (Hanuman), the foremost embodiment of devotion, strength, and selfless service, is worshipped for protection, courage, and spiritual strength. Together, worshipping both deities blesses devotees with steadfast devotion, peace, and fearlessness.",
+    "architecture": [
+      { "title": "Traditional Hall", "text": "A traditional coastal Karnataka style hall with a sloping tiled roof and wooden pillars, built for devotional gatherings and ceremonies." },
+      { "title": "Sandhya Mantapa", "text": "The sacred Sandhya Mantapa rooftop, currently undertaking the Taamra Aachchhadana (copper roofing) development project." },
+      { "title": "Stone-Paved Courtyard", "text": "A serene stone-paved courtyard where devotees gather for religious ceremonies, bhajans, and community devotional activities." },
+      { "title": "Carved Wooden Sanctum Doors", "text": "The sanctum sanctorum is entered through finely carved wooden doors reflecting traditional coastal craftsmanship." },
+      { "title": "Silver Prabhavali", "text": "The sacred deities are adorned with an ornamental silver prabhavali (arch) and fresh flower alankara during poojas." }
+    ],
+    "facts": [
+      { "label": "Location", "value": "Maraballi, Jalavalli Post" },
+      { "label": "Taluk & District", "value": "Honnavar Taluk, Uttara Kannada" },
+      { "label": "Presiding Deities", "value": "Lord Veer Vittal & Lord Mukhyaprana" },
+      { "label": "Managing Trust", "value": "Shree Veer Vittal Mukhyaprana Trust" }
+    ]
+  },
+
+  "history": {
+    "title": "Temple History – Punar Pratishtha",
+    "description": "The temple displays inscriptions recording two important religious ceremonies celebrated with deep devotion.",
+    "milestones": [
+      {
+        "title": "First Punar Pratishtha",
+        "date": "24 March 2006",
+        "isoDate": "2006-03-24",
+        "day": "Friday",
+        "samvatsara": "Parthiva",
+        "hinduCalendar": "Phalguna Vadya Dashami",
+        "time": "12:13 PM",
+        "lagna": "Mithuna Lagna",
+        "inscriptionText": "Recorded on temple inscriptions as the sacred First Punar Pratishtha ceremony, solemnised on Friday, 24 March 2006 (Parthiva Samvatsara, Phalguna Vadya Dashami) at 12:13 PM during Mithuna Lagna."
+      },
+      {
+        "title": "Second Punar Pratishtha",
+        "date": "21 March 2009",
+        "isoDate": "2009-03-21",
+        "day": "Saturday",
+        "samvatsara": "Sarvadhari",
+        "hinduCalendar": "Phalguna Vadya Dashami",
+        "time": "10:40 AM",
+        "lagna": "Vrishabha Lagna",
+        "inscriptionText": "Recorded on temple inscriptions as the sacred Second Punar Pratishtha ceremony, solemnised on Saturday, 21 March 2009 (Sarvadhari Samvatsara, Phalguna Vadya Dashami) at 10:40 AM during Vrishabha Lagna."
+      }
+    ],
+    "note": "These historical milestones are inscribed and preserved at the temple premises, documenting the sacred religious ceremonies performed according to traditional rituals."
+  },
+
+  "deities": [
+    {
+      "id": "vittala",
+      "name": "Lord Shree Veer Vittal",
+      "nameKannada": "ಶ್ರೀ ವೀರ ವಿಟ್ಟಲ",
+      "role": "Presiding Deity",
+      "image": "",
+      "description": "Lord Veer Vittal (Vithoba) is a beloved manifestation of Lord Vishnu–Krishna, traditionally depicted standing on a brick with hands on his hips, waiting with boundless compassion for His devotees.",
+      "significance": "Devotees pray to Lord Veer Vittal for pure bhakti (devotion), spiritual upliftment, family harmony, and freedom from worldly afflictions."
+    },
+    {
+      "id": "mukhyaprana",
+      "name": "Lord Shree Mukhyaprana",
+      "nameKannada": "ಶ್ರೀ ಮುಖ್ಯಪ್ರಾಣ",
+      "role": "Presiding Deity",
+      "image": "",
+      "description": "Mukhyaprana — 'the chief life-breath' — is the revered name for Lord Hanuman in the Madhva and coastal Karnataka tradition, the ever-devoted servant of the Divine.",
+      "significance": "Worshipped for courage, inner strength, protection from fear and negative influences, good health, and success in virtuous undertakings."
+    }
+  ],
+
+  "annualSeva": {
+    "title": "Annual Seva Arrangement",
+    "contribution": 1025,
+    "contributionFormatted": "₹1,025",
+    "currency": "₹",
+    "intro": "The temple invites devotees to participate in its annual religious seva arrangement.",
+    "description": "The contribution supports temple worship and religious activities. Devotees who participate are included in the annual seva arrangement, under which worship is performed on a designated day every year.",
+    "significance": "Participating in the Annual Seva provides devotees and their families a direct spiritual bond with the sacred ongoing worship of Lord Veer Vittal and Lord Mukhyaprana. Each year on the designated day, sacred pooja, alankara, and prayers are offered in the devotee's name for peace, prosperity, and spiritual well-being.",
+    "points": [
+      "Annual Seva Contribution: ₹1,025.",
+      "Supports ongoing temple worship, pooja rituals, and religious activities throughout the year.",
+      "Enrolled devotees receive the benefit of worship performed on a designated day every year in their name and on behalf of their family.",
+      "Devotees can enrol directly through bank transfer or UPI and share their details with the temple trust."
+    ]
+  },
+
+  "development": {
+    "title": "Taamra Aachchhadana (Copper Roofing Project)",
+    "subtitle": "Copper Roofing Initiative for the Sandhya Mantapa",
+    "description": "The temple has undertaken a development initiative to cover the Sandhya Mantapa rooftop with copper sheets, inspired by the devotion to Lord Shree Veer Vittal Mukhyaprana.",
+    "items": [
+      {
+        "category": "Copper Sheets",
+        "amount": 2000000,
+        "amountFormatted": "₹20,00,000",
+        "description": "Procurement of high-durability sacred copper sheets for complete rooftop cladding."
+      },
+      {
+        "category": "Construction and Related Works",
+        "amount": 500000,
+        "amountFormatted": "₹5,00,000",
+        "description": "Roof structural reinforcement, carpentry, battens, underlayment, and weatherproofing."
+      },
+      {
+        "category": "Labour Charges",
+        "amount": 500000,
+        "amountFormatted": "₹5,00,000",
+        "description": "Artisan craftsmanship and installation labour for copper sheet cladding."
+      }
+    ],
+    "totalCost": 3000000,
+    "totalCostFormatted": "₹30,00,000",
+    "appeal": "The temple trust humbly requests all devotees and well-wishers to contribute generously towards this sacred project. Every contribution, big or small, will help support the completion of the copper roofing work. May Lord Shree Veer Vittal Mukhyaprana bless you and your family with happiness, prosperity and well-being."
+  },
+
+  "timings": {
+    "timezone": "Asia/Kolkata",
+    "sessions": [
+      { "label": "Morning Darshan", "open": "06:30", "close": "12:30" },
+      { "label": "Evening Darshan", "open": "17:30", "close": "20:30" }
+    ],
+    "schedule": [
+      { "time": "06:30", "title": "Temple opens · Morning Darshan" },
+      { "time": "08:00", "title": "Traditional Pooja & Mangalarati" },
+      { "time": "12:00", "title": "Maha Mangalarati & Naivedya" },
+      { "time": "12:30", "title": "Temple closes for afternoon" },
+      { "time": "17:30", "title": "Temple reopens · Evening Darshan" },
+      { "time": "19:00", "title": "Deeparadhana & Devotional Prayers" },
+      { "time": "20:00", "title": "Ratri Pooja & Mangalarati" },
+      { "time": "20:30", "title": "Temple closes" }
+    ],
+    "notes": [
+      "The temple is associated with traditional worship, religious ceremonies, and community devotional activities.",
+      "Timings may be extended on special religious ceremonies, annual seva days, and festival occasions.",
+      "Devotees planning special visits or seva participation are encouraged to contact trust members in advance."
+    ]
+  },
+
+  "sevas": {
+    "currency": "₹",
+    "intro": "The temple conducts traditional worship, religious ceremonies, annual seva and community devotional activities. Devotees are invited to participate in the sacred annual seva arrangement.",
+    "items": [
+      {
+        "name": "Annual Seva Arrangement",
+        "description": "Annual religious seva arrangement under which worship is performed on a designated day every year. Contribution directly supports temple worship and religious activities.",
+        "price": "1025",
+        "timing": "Designated day each year",
+        "category": "Annual Seva",
+        "featured": true
+      },
+      {
+        "name": "Traditional Pooja & Mangalarati",
+        "description": "Daily morning and evening pooja offered to Lord Veer Vittal and Lord Mukhyaprana.",
+        "price": "",
+        "timing": "Daily morning & evening",
+        "category": "Daily Worship"
+      },
+      {
+        "name": "Religious Ceremonies & Devotional Seva",
+        "description": "Special poojas, Punar Pratishtha commemorations, and community devotional gatherings.",
+        "price": "",
+        "timing": "Auspicious days",
+        "category": "Ceremonies"
+      }
+    ]
+  },
+
+  "festivals": {
+    "annual": [
+      {
+        "name": "Punar Pratishtha Commemoration",
+        "month": "Phalguna Vadya Dashami (March)",
+        "description": "Commemoration of the sacred First Punar Pratishtha (24 March 2006) and Second Punar Pratishtha (21 March 2009) with special pooja and mangalarati."
+      },
+      {
+        "name": "Annual Seva Day",
+        "month": "Designated Days",
+        "description": "Special worship performed for devotees participating in the temple's annual seva arrangement."
+      },
+      {
+        "name": "Community Devotional Activities",
+        "month": "Throughout the Year",
+        "description": "Traditional poojas, bhajans, and religious gatherings celebrating Lord Veer Vittal and Lord Mukhyaprana."
+      }
+    ],
+    "upcoming": []
+  },
+
+  "announcements": [
+    {
+      "text": "Taamra Aachchhadana: Copper roofing project for Sandhya Mantapa is underway. Devotees are invited to contribute generously."
+    },
+    {
+      "text": "Annual Seva Arrangement: Devotees can enrol for the annual seva with a contribution of ₹1,025."
+    }
+  ],
+
+  "gallery": [
+    { "src": "", "title": "Temple Sanctum", "category": "Architecture" },
+    { "src": "", "title": "Sandhya Mantapa Rooftop", "category": "Architecture" },
+    { "src": "", "title": "Carved Wooden Sanctum Door", "category": "Architecture" },
+    { "src": "", "title": "Stone-Paved Courtyard", "category": "Architecture" },
+    { "src": "", "title": "Lord Shree Veer Vittal Alankara", "category": "Deities" },
+    { "src": "", "title": "Lord Shree Mukhyaprana Alankara", "category": "Deities" },
+    { "src": "", "title": "Punar Pratishtha Inscriptions", "category": "Heritage" },
+    { "src": "", "title": "Community Devotional Gatherings", "category": "Devotion" }
+  ],
+
+  "location": {
+    "address": "Shree Veer Vittal Mukhyaprana Temple, Maraballi, Jalavalli Post, Honnavar Taluk, Uttara Kannada District, Karnataka – 581334, India.",
+    "village": "Maraballi",
+    "post": "Jalavalli Post",
+    "taluk": "Honnavar Taluk",
+    "district": "Uttara Kannada District",
+    "state": "Karnataka",
+    "pin": "581334",
+    "plusCode": "7G5C+3M4 Jalwalli, Karnataka",
+    "lat": 14.2576392,
+    "lng": 74.5217134,
+    "mapsUrl": "https://maps.app.goo.gl/GNa6F7k69oegJMir8",
+    "directions": [
+      {
+        "text": "The temple is located at Maraballi, under Jalavalli Post, in Honnavar Taluk of Uttara Kannada District, Karnataka.",
+        "verified": true
+      },
+      {
+        "text": "Honnavar town is the nearest major taluk centre, well-connected by road and Konkan Railway.",
+        "verified": true
+      },
+      {
+        "text": "Devotees travelling by road can follow the route towards Jalavalli / Maraballi or use the verified Google Maps directions link.",
+        "verified": true
+      }
+    ],
+    "nearby": [
+      { "name": "Jalavalli Post", "distance": "Local village centre" },
+      { "name": "Honnavar Taluk Centre", "distance": "Uttara Kannada District" },
+      { "name": "Sharavathi River Valley", "distance": "Honnavar Taluk" }
+    ]
+  },
+
+  "contact": {
+    "sample": false,
+    "trust": "Shree Veer Vittal Mukhyaprana Trust",
+    "persons": [
+      { "name": "Varadaraj Bhat", "phone": "99801 50877", "phoneRaw": "+919980150877" },
+      { "name": "Narayan Bhat", "phone": "95909 39077", "phoneRaw": "+919590939077" },
+      { "name": "Raghavendra Bhat", "phone": "99867 99700", "phoneRaw": "+919986799700" }
+    ],
+    "phone": "+91 99801 50877",
+    "whatsapp": "919980150877",
+    "whatsappDisplay": "+91 99801 50877",
+    "email": "",
+    "officeHours": "Traditional worship hours · Morning & Evening",
+    "committee": "Shree Veer Vittal Mukhyaprana Trust",
+    "social": {
+      "facebook": "",
+      "instagram": "",
+      "youtube": ""
+    }
+  },
+
+  "donation": {
+    "enabled": true,
+    "intro": "The temple trust humbly invites devotees and well-wishers to support sacred worship, annual seva arrangements, and development initiatives.",
+    "purposes": [
+      {
+        "title": "Taamra Aachchhadana",
+        "text": "Copper roofing project for the Sandhya Mantapa rooftop (Total estimated cost: ₹30,00,000)."
+      },
+      {
+        "title": "Annual Seva Arrangement",
+        "text": "Annual seva contribution (₹1,025) supporting temple worship with pooja performed on a designated day every year."
+      },
+      {
+        "title": "Temple Worship & Maintenance",
+        "text": "General contributions supporting daily traditional worship, rituals, and temple upkeep."
+      }
+    ],
+    "bank": {
+      "accountName": "Shree Veer Vittal Mukhyaprana Trust",
+      "bankName": "Union Bank of India",
+      "branch": "Hadinbal",
+      "accountNumber": "52010268083813",
+      "ifsc": "UBIN0903469",
+      "upiId": "QR919980150877-3813@unionbankofindia"
+    },
+    "whatsappInstructions": {
+      "title": "Payment Confirmation via WhatsApp",
+      "note": "Devotees making donations through NEFT, RTGS or IMPS should share their payment details through WhatsApp so that the trust can acknowledge your contribution and record your seva details.",
+      "whatsappNumber": "919980150877",
+      "whatsappDisplay": "99801 50877",
+      "requiredFields": [
+        "Full Name",
+        "Postal Address",
+        "Contact Number",
+        "UTR / Reference Number",
+        "Transaction ID",
+        "Date of Transfer"
+      ]
+    },
+    "disabledText": ""
+  }
+}

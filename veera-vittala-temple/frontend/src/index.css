@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+  body {
+    @apply bg-cream-100 font-sans text-ink-800 antialiased;
+    font-size: 17px;
+    line-height: 1.65;
+  }
+  h1, h2, h3, h4 { @apply font-display text-maroon-900; letter-spacing: -0.01em; line-height: 1.12; }
+  ::selection { @apply bg-saffron-300 text-maroon-950; }
+  :focus-visible { @apply outline-none ring-2 ring-saffron-500 ring-offset-2 ring-offset-cream-100; }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+  }
+}
+
+@layer components {
+  .container-x { @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8; }
+  .section { @apply py-16 sm:py-20 lg:py-24; }
+  .eyebrow { @apply inline-flex items-center gap-2 text-[0.78rem] font-semibold uppercase tracking-[0.22em] text-saffron-600; }
+  .card {
+    @apply rounded-2xl border border-gold-300/40 bg-cream-50 shadow-soft;
+  }
+  .btn { @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-[0.95rem] font-semibold transition-all duration-300 disabled:cursor-not-allowed disabled:opacity-60; }
+  .btn-primary { @apply btn bg-gradient-to-br from-saffron-500 to-saffron-600 text-white shadow-[0_10px_30px_-10px_rgba(201,105,18,.8)] hover:-translate-y-0.5 hover:shadow-[0_16px_36px_-12px_rgba(201,105,18,.9)]; }
+  .btn-maroon { @apply btn bg-maroon-800 text-cream-50 hover:bg-maroon-700 hover:-translate-y-0.5; }
+  .btn-ghost { @apply btn border border-gold-300/70 bg-white/5 text-cream-50 backdrop-blur hover:bg-white/15; }
+  .btn-outline { @apply btn border border-maroon-800/25 text-maroon-800 hover:border-maroon-800 hover:bg-maroon-800 hover:text-cream-50; }
+  .input {
+    @apply w-full rounded-xl border border-cream-300 bg-white px-4 py-3 text-ink-800 placeholder:text-ink-700/40 transition focus:border-saffron-500 focus:outline-none focus:ring-4 focus:ring-saffron-400/20;
+  }
+  .label { @apply mb-1.5 block text-sm font-semibold text-ink-700; }
+  .gold-text { @apply bg-gradient-to-r from-gold-300 via-gold-200 to-gold-400 bg-clip-text text-transparent; }
+  .kolam-bg {
+    background-image: radial-gradient(circle at 1px 1px, rgba(156,119,32,.18) 1px, transparent 0);
+    background-size: 22px 22px;
+  }
+  .sample-tag { @apply inline-flex items-center gap-1 rounded-full border border-saffron-400/50 bg-saffron-300/15 px-2 py-0.5 text-[0.68rem] font-semibold uppercase tracking-wider text-saffron-600; }
+}
+
+/* Decorative temple-border strip */
+.border-temple {
+  height: 14px;
+  background:
+    linear-gradient(135deg, transparent 50%, #c0962c 50%) 0 0 / 14px 14px repeat-x,
+    linear-gradient(225deg, transparent 50%, #c0962c 50%) 0 0 / 14px 14px repeat-x;
+  opacity: .55;
+}
+
+@keyframes flicker { 0%,100% { transform: scale(1) translateY(0); opacity: .95 } 50% { transform: scale(1.08,.94) translateY(-1px); opacity: 1 } }
+.animate-flicker { animation: flicker 1.8s ease-in-out infinite; transform-origin: 50% 100%; }
+@keyframes rise { 0% { transform: translateY(0); opacity: 0 } 15% { opacity: .9 } 100% { transform: translateY(-260px); opacity: 0 } }
+.ember { animation: rise linear infinite; }
+@keyframes marquee { from { transform: translateX(0) } to { transform: translateX(-50%) } }
+.animate-marquee { animation: marquee 40s linear infinite; }
