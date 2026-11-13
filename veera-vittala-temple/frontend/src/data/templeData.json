@@ -224,16 +224,39 @@
     }
   ],
 
-  "gallery": [
-    { "src": "", "title": "Temple Sanctum", "category": "Architecture" },
-    { "src": "", "title": "Sandhya Mantapa Rooftop", "category": "Architecture" },
-    { "src": "", "title": "Carved Wooden Sanctum Door", "category": "Architecture" },
-    { "src": "", "title": "Stone-Paved Courtyard", "category": "Architecture" },
-    { "src": "", "title": "Lord Shree Veer Vittal Alankara", "category": "Deities" },
-    { "src": "", "title": "Lord Shree Mukhyaprana Alankara", "category": "Deities" },
-    { "src": "", "title": "Punar Pratishtha Inscriptions", "category": "Heritage" },
-    { "src": "", "title": "Community Devotional Gatherings", "category": "Devotion" }
-  ],
+
+"gallery": [
+   {
+    "src": "/images/temple-main.jpeg",
+    "title": "Lord Shree Veer Vittal Alankara"
+    },
+  {
+    "src": "/images/temple-main1.jpeg"
+  },
+  {
+    "src": "/images/temple-main2.jpeg"
+  },
+  {
+    "src": "/images/temple-main4.jpeg",
+    "title": "Lord Hanuman Alankara"
+  },
+  {
+    "src": "/images/temple-main3.jpeg"
+  },
+  {
+    "src": "/images/temple-main5.jpeg"
+   
+  },
+  {
+    "src": "/images/temple-main6.jpeg"
+    
+  },
+  {
+    "src": "/images/temple-main7.jpeg"
+    
+  }
+],
+
 
   "location": {
     "address": "Shree Veer Vittal Mukhyaprana Temple, Maraballi, Jalavalli Post, Honnavar Taluk, Uttara Kannada District, Karnataka – 581334, India.",

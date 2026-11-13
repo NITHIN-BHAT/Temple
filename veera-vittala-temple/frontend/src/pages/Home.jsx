@@ -108,16 +108,25 @@ function Announcements() {
   );
 }
 
+const TEMPLE_ABOUT_PHOTO = '/images/temple-main.jpeg';
 function AboutTeaser() {
   const { content } = useContent();
   const { about, gallery } = content;
   const img = gallery.find((g) => g.category === 'Architecture');
+  const photoSrc = TEMPLE_ABOUT_PHOTO;
+  const photoTitle = img?.title || 'Shree Veer Vittal Mukhyaprana Temple Sanctum & Mantapa';
   return (
     <section className="section">
       <div className="container-x grid items-center gap-12 lg:grid-cols-2 lg:gap-20">
         <Reveal className="relative">
           <div className="absolute -left-4 -top-4 h-full w-full rounded-[2rem] border border-gold-400/50" aria-hidden="true" />
-          <SmartImage src={img?.src} alt={img?.title || 'Temple'} category="Architecture" className="relative aspect-[4/5] rounded-[2rem] shadow-soft sm:aspect-[5/4] lg:aspect-[4/5]" />
+          <SmartImage
+            src={photoSrc}
+            alt={photoTitle}
+            category="Architecture"
+            className="relative aspect-[4/5] rounded-[2rem] shadow-soft sm:aspect-[5/4] lg:aspect-[4/5]"
+            imgClassName="object-center"
+          />
           <div className="absolute -top-6 right-4 rounded-2xl bg-maroon-900 px-6 py-4 text-cream-50 shadow-soft sm:right-8">
             <p className="font-display text-2xl font-semibold text-gold-200">Spiritual Centre</p>
             <p className="text-xs uppercase tracking-widest text-cream-200/80">Maraballi · Honnavar</p>

@@ -5,16 +5,17 @@ import { Menu, X, HandHeart } from 'lucide-react';
 import { useContent } from '../../context/ContentContext';
 import { NAV } from './nav';
 
+
 function Emblem({ className }) {
   return (
-    <svg viewBox="0 0 48 48" className={className} aria-hidden="true">
-      <circle cx="24" cy="24" r="23" fill="#5c111d" stroke="#d4ad46" strokeWidth="1.5" />
-      <path d="M24 9c4 7 9 10 9 16.5a9 9 0 0 1-18 0C15 19 20 16 24 9z" fill="#e8821e" />
-      <path d="M24 20c2 3 4 4.5 4 7.5a4 4 0 0 1-8 0c0-3 2-4.5 4-7.5z" fill="#fff1c9" />
-      <path d="M12 37h24" stroke="#d4ad46" strokeWidth="2.5" strokeLinecap="round" />
-    </svg>
+    <img
+      src="/images/logo.jpeg"
+      alt="Shree Veer Vittal Mukhyaprana Temple Logo"
+      className={`${className} object-contain rounded-full`}
+    />
   );
 }
+
 
 export default function Navbar() {
   const { content } = useContent();
